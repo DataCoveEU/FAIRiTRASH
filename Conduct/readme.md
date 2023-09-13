@@ -16,6 +16,7 @@ Use the Issues tab to report bugs, errors or other topics that must be fixed, us
 Please follow the following Best Practices as well as our [Code of Conduct](https://github.com/DataCoveEU/FAIRiTRASH/blob/main/Conduct/Code%20of%20conduct.md) anytime when you interact in this space.
 
 ## FAIRiCUBE GitHub Best Practices
+
 ### Create a README file
 
 To make it easier for people to understand and navigate your work, we recommend that you create a README file for every repository.
