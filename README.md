@@ -1,6 +1,7 @@
 # FAIRiTRASH
 Sandbox for internal FAIRiCUBE work
 
+```mermaid
 classDiagram
     Animal <|-- Duck
     Animal <|-- Fish
@@ -25,3 +26,4 @@ classDiagram
     }
 
     Fish <--> Zebra: bla
+```
