@@ -7,6 +7,7 @@ classDiagram
     }
     note for earthAtmosphere "sosa:FeatureOfInterest"
     class earthAtmosphere_StE{
+      geometry "POINT (4.387611 45.437772)"^^geo:WktLiteral
     }
     note for earthAtmosphere_StE "sosa:Sample"
    earthAtmosphere_StE --> earthAtmosphere: isSampleOf
@@ -21,7 +22,7 @@ classDiagram
     }
     note for sensor-35-207306-844818-0-BMP282 "sosa:Sensor"
    iphone7-35-207306-844818-0 --> sensor-35-207306-844818-0-BMP282: hosts
-
+   sensor-35-207306-844818-0-BMP282 --> atmosphericPressure: observes
 
     class Observation-346344{
       hasSimpleResult "1021.45 hPa"^^cdt:ucum
