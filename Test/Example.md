@@ -12,7 +12,7 @@ classDiagram
     }
     class sosa-Sample{
     }
-    
+    note for earthAtmosphere "sosa:FeatureOfInterest"
     earthAtmosphere_StE --> earthAtmosphere: sosa-isSampleOf
 
     
