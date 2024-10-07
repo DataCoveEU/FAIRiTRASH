@@ -9,6 +9,8 @@ classDiagram
     class earthAtmosphere_StE{
     }
     note for earthAtmosphere_StE "sosa:Sample"
+   earthAtmosphere_StE --> earthAtmosphere: isSampleOf
+
     class atmosphericPressure{
     }
     note for atmosphericPressure "sosa:ObservableProperty"
@@ -18,6 +20,9 @@ classDiagram
     class sensor-35-207306-844818-0-BMP282{
     }
     note for sensor-35-207306-844818-0-BMP282 "sosa:Sensor"
+   iphone7-35-207306-844818-0 --> sensor-35-207306-844818-0-BMP282: hosts
+
+
     class Observation-346344{
       hasSimpleResult "1021.45 hPa"^^cdt:ucum
       resultTime "2017-06-06T12:36:12Z"^^xsd:dateTime
