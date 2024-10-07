@@ -24,6 +24,8 @@ classDiagram
       +bool is_wild
       +run()
     }
+    class Bla{}
+
 
     Fish <--> Zebra: bla
 ```
