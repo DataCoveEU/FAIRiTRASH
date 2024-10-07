@@ -41,7 +41,7 @@ classDiagram
       qudt:value "101936"^^xsd:decimal ;
       qudt:hasUnit unit:PA
    }
-    note for Result-346345 "sosa:QuantityValue"
+    note for Result-346345 "qudt:QuantityValue"
     Observation-346345 --> atmosphericPressure: observedProperty
     Observation-346345 --> earthAtmosphere_StE: hasFeatureOfInterest
     Observation-346345 --> sensor-35-207306-844818-0-BMP282: madeBySensor
