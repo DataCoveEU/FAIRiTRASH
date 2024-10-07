@@ -4,16 +4,14 @@ Sandbox for internal FAIRiCUBE work
 ```mermaid
 classDiagram
    class earthAtmosphere{
-      note "sosa:FeatureOfInterest"
-    }
-    class earthAtmosphere_StE{
-    }
-    class sosa-FeatureOfInterest{
-    }
-    class sosa-Sample{
     }
     note for earthAtmosphere "sosa:FeatureOfInterest"
-    earthAtmosphere_StE --> earthAtmosphere: sosa-isSampleOf
+    class earthAtmosphere_StE{
+    }
+    note for earthAtmosphere_StE "sosa:Sample"
+    class atmosphericPressure{
+    }
+    note for atmosphericPressure "sosa:ObservableProperty"
 
     
 ```
