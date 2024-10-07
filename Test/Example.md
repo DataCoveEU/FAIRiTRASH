@@ -12,6 +12,8 @@ classDiagram
     class atmosphericPressure{
     }
     note for atmosphericPressure "sosa:ObservableProperty"
-
+    class iphone7/35-207306-844818-0{
+    }
+    note for iphone7/35-207306-844818-0 "sosa:Platform"
     
 ```
