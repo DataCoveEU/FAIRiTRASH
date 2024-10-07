@@ -10,7 +10,7 @@ classDiagram
 
     }
     
-    earthAtmosphere_StE --> earthAtmosphere: sosa:isSampleOf
+    earthAtmosphere_StE --> earthAtmosphere: sosa-isSampleOf
 
     
 ```
