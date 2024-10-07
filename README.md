@@ -25,7 +25,7 @@ classDiagram
       +run()
     }
     class Bla{
-      +int bli
+     
     }
 
 
